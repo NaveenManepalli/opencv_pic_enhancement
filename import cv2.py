@@ -1,7 +1,7 @@
 import cv2
 
 
-n = input("Enter the image number:")
+n = input("Enter the image number:-")
 
 
 img = cv2.imread(n + '.jpg', cv2.IMREAD_GRAYSCALE)
